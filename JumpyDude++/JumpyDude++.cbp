@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="JumpyDude++" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_gcc_sdl" />
+		<MakeCommands>
+			<Build command="" />
+			<CompileFile command="" />
+			<Clean command="" />
+			<DistClean command="" />
+			<AskRebuildNeeded command="" />
+			<SilentBuild command=" &gt; $(CMD_NULL)" />
+		</MakeCommands>
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/JumpyDude++" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_sdl" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/JumpyDude++" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gnu_gcc_sdl" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="Background.cpp" />
+		<Unit filename="Background.hpp" />
+		<Unit filename="Botao.cpp" />
+		<Unit filename="Botao.hpp" />
+		<Unit filename="Imagem.cpp" />
+		<Unit filename="Imagem.hpp" />
+		<Unit filename="Musica.cpp" />
+		<Unit filename="Musica.hpp" />
+		<Unit filename="Plataforma.cpp" />
+		<Unit filename="Plataforma.hpp" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.hpp" />
+		<Unit filename="Record.cpp" />
+		<Unit filename="Record.hpp" />
+		<Unit filename="SDLObject.cpp" />
+		<Unit filename="SDLObject.hpp" />
+		<Unit filename="Soundeffect.cpp" />
+		<Unit filename="Soundeffect.hpp" />
+		<Unit filename="Texto.cpp" />
+		<Unit filename="Texto.hpp" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
